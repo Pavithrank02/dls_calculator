@@ -11,8 +11,7 @@ const Calculator = () => {
   
     // Calculate the adjusted target (T1) for the first innings
     const adjustedTargetFirst = firstInningsRuns * (1 + a * (1 - resourcePercentageFirst) - b * (1 - resourcePercentageFirst) * (1 - resourcePercentageFirst));
-  
-    // Calculate the resource percentage (R2) for the second innings
+
     const resourcePercentageSecond = secondInningsOvers / totalOvers;
   
     // Calculate the adjusted target (T2) for the second innings based on wickets lost
